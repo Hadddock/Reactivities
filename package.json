@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/react": "^17.0.48",
+    "semantic-ui-react": "^2.1.3"
+  }
+}
