@@ -19,7 +19,7 @@ export default observer(function ProfileAbout() {
                         < Button
                             floated='right'
                             basic
-                            content={editMode ? 'Cancel' : "EditProfile"}
+                            content={editMode ? 'Cancel' : "Edit Profile"}
                             onClick= {() => setEditMode(!editMode)}
                         />
                         )}

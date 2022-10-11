@@ -1,5 +1,4 @@
-import { action, makeAutoObservable, makeObservable, observable, runInAction } from "mobx"
-import { objectPrototype } from "mobx/dist/internal";
+import {  makeAutoObservable ,runInAction } from "mobx"
 import agent from "../api/agent";
 import { Activity, ActivityFormValues } from "../models/activity";
 import { format } from 'date-fns';
@@ -206,6 +205,18 @@ export default class ActivityStore {
 
         
     }
+
+    updateAttendeeFollowing =  (username: string ) => {
+        this.activityRegistry.forEach(activity => {
+            activity.attendees.forEach(attendee => {
+                if (attendee.username === username) {
+                    attendee.following ? attendee.followersCount-- : attendee.followersCount++;
+                    attendee.following = !attendee.following;
+                }
+            })
+        })
+    }
+
     
     clearSelectedActivity = () => {
         this.selectedActivity = undefined;
