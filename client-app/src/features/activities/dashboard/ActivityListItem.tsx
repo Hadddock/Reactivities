@@ -66,7 +66,6 @@ export default function ActivityListItem({ activity }: Props) {
                     color='teal'
                     floated='right'
                     content='View' /> 
-                
             </Segment>
         </Segment.Group>
     )

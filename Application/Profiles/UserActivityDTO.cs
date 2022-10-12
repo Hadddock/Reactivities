@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Profiles
 {
-    public class UserActivityDTO
+    public class UserActivityDto
     {
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public string Title { get; set; }
         public string Category { get; set; }
         
