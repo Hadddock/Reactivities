@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@types/react-infinite-scroller": "^1.2.3",
-    "react-infinite-scroller": "^1.2.6"
-  }
-}
