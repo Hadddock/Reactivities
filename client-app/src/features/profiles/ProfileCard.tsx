@@ -18,7 +18,7 @@ export default observer(function ProfileCard({ profile }: Props) {
     }
     return (
         <Card as= {Link} to= { `/profiles/${profile.username}` }>
-            <Image src={profile.image || 'assets/user.png'} />
+            <Image src={profile.image || '/assets/user.png'} />
             <Card.Content>
                 <Card.Header> {profile.displayName} </Card.Header>
                 <Card.Description>{truncate(profile.bio)}</Card.Description>
