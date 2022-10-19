@@ -1,7 +1,4 @@
-# <img alt="Reactivities Logo" src="https://i.imgur.com/MTOpVsJ.png"  width = 75 height = 75/> Reactivities
-
-## <img alt="Summary Icon" src="https://www.iconsdb.com/icons/preview/white/info-2-xxl.png" width= 30 height=30>  Summary
-
+# <img alt="Reactivities Logo" src="https://i.imgur.com/MTOpVsJ.png"  width = 96 height = 84/> Reactivities
 - Reactivities is an activity-planning web application based on [The Complete guide to building an app with .Net Core and React
  by Niel Cummings](https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react/)
 - Reactivities is built with a .NET back end written in C# and React-based front end written in TypeScript<br>
