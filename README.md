@@ -32,7 +32,7 @@
 
 <img alt="line" src="https://img.icons8.com/color/344/vertical-line.png" width= 50 height=50 ><img alt="Axios" src="https://avatars.githubusercontent.com/u/32372333?s=200&v=4"  width = 50 height = 50/> Axios for asynchronous back-end communication
 
-<img alt="line" src="https://img.icons8.com/color/344/vertical-line.png" width= 50 height=50 ><img alt="SignalR" src="https://learn.microsoft.com/answers/topics/25336/icon.html?t=168520"  width = 50 height = 50/> SignalR for real-time chat functionality
+<img alt="line" src="https://img.icons8.com/color/344/vertical-line.png" width= 50 height=50 ><img alt="SignalR" src="https://img.stackshare.io/service/4013/SignalR-logo.png"  width = 50 height = 50/> SignalR for real-time chat functionality
 
 <img alt="line" src="https://img.icons8.com/color/344/vertical-line.png" width= 50 height=50 ><img alt="Semantic UI" src="https://react.semantic-ui.com/logo.png"  width = 50 height = 50/> Semantic UI for front-end stylization
 
