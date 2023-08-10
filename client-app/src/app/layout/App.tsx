@@ -67,7 +67,7 @@ function App() {
                     path="/profiles/:username"
                     component={ProfilePage}
                   />
-                  {/* <PrivateRoute path='/errors' component={TestErrors} /> */}
+                  <PrivateRoute path="/errors" component={TestErrors} />
                   <Route path="/server-error" component={ServerError} />
                   <Route component={NotFound} />
                 </Switch>
